@@ -1,30 +1,40 @@
+ï»¿#ğŸ¨ CoCo Fine Art Website
+
+This is a test website designed for my dad,
+who is the owner of CoCo Fine Art wrokspace.
+
+He is a great art teacher but a dummy when it comes to tech-related stuff.
+So I hope I can build it as intuituve as sth even the amoebasssss can work on. 
+
+##Project Structure
+
 CoCoFineArtWebsite/
-¢u¢w¢w frontend/
-|   ¢u¢w¢w public/			#static assets like  images
+â”œâ”€â”€ frontend/
+|   â”œâ”€â”€ public/			#static assets like  images
 favicon
-|   ¢u¢w¢w src/			
-|   |   ¢u¢w¢w components/		# reusable components (ex. buttons, Navbars, Footer)
-|   |   ¢u¢w¢w pages/			# page components (logins, signups, Dashboard)
+|   â”œâ”€â”€ src/			
+|   |   â”œâ”€â”€ components/		# reusable components (ex. buttons, Navbars, Footer)
+|   |   â”œâ”€â”€ pages/			# page components (logins, signups, Dashboard)
 LoginSignupPage, etc
-|   |   ¢u¢w¢w App.js			# Main stucture (root component), aet up routes
-|   |   ¢u¢w¢w index.js		# entry point, ¡A±N <App /> ±¾¤J HTML ¤¤
-|   ¢|¢w¢w package.json		# frontend dependencies 
-							# °O¿ı¨Ï¥Îªº®M¥ó¡Bª©¥»»P±Ò°Ê¸}¥»
+|   |   â”œâ”€â”€ App.js			# Main stucture (root component), aet up routes
+|   |   â”œâ”€â”€ index.js		# entry point, ï¼Œå°‡ <App /> æ›å…¥ HTML ä¸­
+|   â””â”€â”€ package.json		# frontend dependencies 
+							# è¨˜éŒ„ä½¿ç”¨çš„å¥—ä»¶ã€ç‰ˆæœ¬èˆ‡å•Ÿå‹•è…³æœ¬
 |
-¢u¢w¢w backend/
-|   ¢u¢w¢w controllers/		# handle requests and responses ex. authController.js, staffController.js
-|   ¢u¢w¢w models/				# database models ex. User.js, Staff.js, Request.js
-|   ¢u¢w¢w routes/				# define API endpoints ex. authRoutes.js, staffRoutes.js
-|   ¢u¢w¢w app.js				# main server logic
-|   ¢u¢w¢w .env
+â”œâ”€â”€ backend/
+|   â”œâ”€â”€ controllers/		# handle requests and responses ex. authController.js, staffController.js
+|   â”œâ”€â”€ models/				# database models ex. User.js, Staff.js, Request.js
+|   â”œâ”€â”€ routes/				# define API endpoints ex. authRoutes.js, staffRoutes.js
+|   â”œâ”€â”€ app.js				# main server logic
+|   â”œâ”€â”€ .env
 |
-|   ¢u¢w¢w database/
-|   |   ¢u¢w¢w schema.sql		# SQL schema for the database
-|   |   ¢u¢w¢w seed.sql		# dummy data setup
+|   â”œâ”€â”€ database/
+|   |   â”œâ”€â”€ schema.sql		# SQL schema for the database
+|   |   â”œâ”€â”€ seed.sql		# dummy data setup
 |
-|   ¢u¢w¢w docs/
-|   |   ¢|¢w¢w CoCo_User_Diagram.png
+|   â”œâ”€â”€ docs/
+|   |   â””â”€â”€ CoCo_User_Diagram.png
 |
-¢u¢w¢w README.md
-¢u¢w¢w .gitignore
-¢|¢w¢w package.json / requirements.txt
+â”œâ”€â”€ README.md
+â”œâ”€â”€ .gitignore
+â””â”€â”€ package.json / requirements.txt
